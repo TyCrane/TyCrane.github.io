@@ -60,6 +60,10 @@ table {
 	line-height: 5em;
 }
 
+.nav a:hover{
+	color: blue;
+}
+
 .nav li {
 	list-style: disc outside none;
 	display: inline-block;
