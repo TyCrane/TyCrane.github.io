@@ -73,6 +73,10 @@ table {
 	
 }
 
+.nav a:hover{
+	color: blue;
+}
+
 .nav {
 	background-color: black;
 	width: 100%;
@@ -260,3 +264,22 @@ table {
 	}
 
 
+@media (max-width: 700px) {
+	.Header h1 {
+		font-size: 2em;
+		text-align: center;
+		line-height: 4em;
+		}
+
+	.nav li {
+		list-style: disc outside none;
+		display: inline-block;
+		color: white;
+		margin-left: 1%;
+		font-size: .855em;
+		}
+	.net {
+		padding-bottom: 3%;
+		font-size: 1em;
+	}
+}
