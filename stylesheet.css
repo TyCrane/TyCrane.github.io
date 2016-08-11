@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.Header {
+	max-width: 100%;
+	background-image: url('Background.jpg');
+	background-repeat: no-repeat;
+	
+}
+
+.Header span {
+	color: #1854B4;
+}
+
+.Header h1 {
+	font-size: 5em;
+	text-align: center;
+	line-height: 5em;
+}
+
+.nav li {
+	list-style: disc outside none;
+	display: inline-block;
+	color: white;
+	margin-left: 6%;
+	font-size: .855em;
+	
+}
+
+.nav {
+	background-color: black;
+	width: 100%;
+	padding: 1em 0;
+}
+
+.logo {
+	margin-left: 15%;
+	margin-right: 10%;
+	font-size: 6em;
+}
+
+
+.subTitle {
+	clear: both;
+	text-align: center;
+	margin-top: 7%;
+	font-size: 2.5em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+
+.MySkills {
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 4%;
+}
+
+.MySkills h1 {
+	font-size: 2em;
+	float: left;
+	width: 42%;
+	line-height: 2em;
+	border-right: 1px groove grey;
+	text-align: right;
+	padding-right: 2%;
+}
+
+.MySkills ul {
+	float: left;
+	width:44%;
+}
+
+.MySkills li {
+	font-size: .85em;
+	padding-left: 15%;
+	text-align: left;
+	line-height: 1.1em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+.Education {
+	clear: both;
+	text-align: center;
+	margin-top: 5%;
+	background-color: black;
+	color: white;
+	padding-top: 5%;
+}
+
+.Education h1 {
+	font-size: 2.5em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+.EducationBody {
+	background-image: url('apple.jpg');
+	color: white;
+	overflow: hidden;
+}
+
+.EducationBody img {
+	max-width: 45%;
+	padding: 11%;
+}
+
+.EducationBody p {
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+
+.eduText {
+	text-align: left;
+	margin-left: 10%;
+}
+
+.eduText li {
+	padding-top: 5%;
+	float: left;
+	padding-left: 3%;
+	width: 30%;
+}
+
+.Works {
+	clear: both;
+	text-align: center;
+	margin-top: 7%;
+	overflow: hidden;
+}
+
+.Works h1 {
+	font-size: 2.5em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.WorksBody {
+	padding: 4% 0;
+}
+
+.WorksLeft {
+	font-size: 2em;
+	float: left;
+	width: 42%;
+	line-height: 2em;
+	border-right: 1px groove grey;
+	text-align: right;
+	padding-right: 2%;
+	
+}
+
+.WorksRight {
+	float: left;
+	width:44%;
+}
+
+.WorksRight li {
+	font-size: .85em;
+	padding-left: 15%;
+	text-align: left;
+	line-height: 4.1em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+}
+
+.Resume {
+	clear: both;
+	text-align: center;
+	margin-top: 7%;
+}
+
+.Resume h1 {
+	font-size: 2.5em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Contact {
+	clear: both;
+	text-align: center;
+	margin-top: 7%;
+	background-color: #00061a;
+	color: white;
+	overflow: hidden;
+}
+
+.Contact h1 {
+	font-size: 2.5em;
+	padding-top: 3%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Contact li {
+	padding-top: 1%;
+	float: left;
+	width: 5%;
+	padding-left: 8%;
+	padding-bottom: 8%;
+	
+}
+.anchor {
+	text-decoration: none;
+	color: white;
+}
+
+.Contact ul {
+	text-align: center;
+	padding-left: 34.5%;
+	padding-top: 1.5%;
+	padding-bottom: 2%;
+	
+}
+
+.svg:hover path {    
+	fill: #1854B4;
+	}
+
+

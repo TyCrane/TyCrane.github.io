@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>				
+<script type="text/javascript">   
+ jQuery(document).ready(function(){    
+      jQuery('img.svg').each(function(){          
+            var $img = jQuery(this);            
+            var imgID = $img.attr('id');            
+            var imgClass = $img.attr('class');            
+            var imgURL = $img.attr('src');            
+            jQuery.get(imgURL, function(data) {                
+                // Get the SVG tag, ignore the rest                
+                var $svg = jQuery(data).find('svg');                
+                // Add replaced image's ID to the new SVG               
+                 if(typeof imgID !== 'undefined') {                    
+                    $svg = $svg.attr('id', imgID);                
+                }                
+                // Add replaced image's classes to the new SVG       
+                if(typeof imgClass !== 'undefined') {           
+                        $svg = $svg.attr('class', imgClass+' replaced-svg');                
+                    }                
+                    // Remove any invalid XML tags as per http://validator.w3.org        
+                            $svg = $svg.removeAttr('xmlns:a');                
+                            // Replace image with new SVG                
+                            $img.replaceWith($svg);            
+                        });        
+                    });    
+                });    
+</script>
+</head>
+<body>
+
+    <header>
+        <ul>
+
+        </ul>
+    </header>
+
+    <div class="Header">
+        <h1>
+            <span style="color: white">
+                Tyrell
+            </span>
+            <span> 
+                Powers-Crane
+            </span>
+        </h1>
+    </div>
+
+    <nav class="nav">
+        <ul>
+            <li class="logo">
+                    Tyrell 
+                <span style="color: #5F8ADA">
+                    Powers-Crane
+                </span>
+            </li>
+            <li>
+               <a href="#TechWord" class="anchor"> Technologies </a>
+            </li>
+            <li>
+               <a href="#EduWord" class="anchor"> Education </a>
+            </li>
+            <li>
+                <a href="#WorkWord" class="anchor">Works </a>
+            </li>
+           <!-- <li>
+               <a href="#ResumeWord" class="anchor"> Resume </a>
+            </li>-->
+            <li>
+                <a href="#contactWord" class="anchor">Contact </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="subTitle">
+        <a name="TechWord">Technologies</a>
+    </div>
+
+    <div class="MySkills">
+        <h1>
+            Back 
+            <span style="color: #1854B4">
+                End
+            </span>
+        </h1>
+        <ul>
+            <li>
+                ASP.NET MVC
+            </li>
+            <li>
+                Enterprise Library
+            </li>
+            <li>
+                Entity Framework
+            </li>
+            <li>
+                Jquery & Ajax
+            </li>
+            <li>
+                Sql Server
+            </li>
+        </ul>
+    </div>
+
+     <div class="MySkills">
+        <h1>
+            Front 
+            <span style="color: #1854B4">
+                End
+            </span>
+        </h1>
+        <ul>
+            <li>
+                Html & Css
+            </li>
+            <li>
+                MVC Razor
+            </li>
+            <li>
+                JavaScript
+            </li>
+            <li>
+                Jquery & Ajax
+            </li>
+            
+        </ul>
+    </div>
+
+     <div class="MySkills">
+        <h1>
+            Game 
+            <span style="color: #1854B4">
+                Development
+            </span>
+        </h1>
+        <ul>
+            <li>
+                Unity3d
+            </li>
+            <li>
+                Photoshop 10
+            </li>
+            <li>
+                C#
+            </li>
+        </ul>
+    </div>
+
+    <div class="Education">
+        <h1>
+           <a name="EduWord"> Education </a>
+        </h1>
+    </div>
+    <div class="EducationBody">
+        <p class="eduImage">
+            <img src="IronYard.gif" />
+        </p>
+        <ul class="eduText">
+            <li style="font-size: 1.5em; padding-top: 7%">
+                <span style="padding-right: .7em">
+                The Iron Yard 
+                </span>
+                 -   
+                 <span style="font-size: .85em; padding-left: .7em">
+                     09/02/2016
+                 </span>
+            </li>
+            <li style="width: 25%">
+                <span style="font-size: 1.3em">
+                    Course:
+                </span>
+                <span style="padding-left: 7%">
+                    .Net & C#
+                </span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Works">
+        <h1>
+            <a name="WorkWord">Works</a>
+        </h1>
+    </div>
+    <div class="WorksBody">
+        <ul class="WorksLeft">
+            <li>
+                My 
+                <span style="color: #1854B4">
+                    Works
+                </span>
+            </li>
+        </ul>
+        <ul class="WorksRight">
+            <li>
+                Visit my <a href="https://github.com/TyCrane">GitHub</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--<div class="Resume">
+        <h1>
+            Resume
+        </h1>
+    </div>-->
+
+    <div class="Contact">
+        <h1>
+            <a name="contactWord">Contact</a>
+        </h1>
+        <h2 style="padding-top: .5%; color: #5F8ADA">
+            tycrane@ymail.com
+        </h2>
+        <ul>
+            <li>
+              <a href="https://github.com/TyCrane"> 
+                 <img class="svg" id="id" src="Github.svg"/>
+              </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/tpowersc">
+                    <img class="svg" id="id" src="Twitter.svg"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/tyrell-powers-crane-00b228123">
+                    <img class="svg" id="id" src="Linkedin.svg"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
+			
+		
+		
