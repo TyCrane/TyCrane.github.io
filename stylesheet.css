@@ -280,8 +280,9 @@ table {
 		list-style: disc outside none;
 		display: inline-block;
 		color: white;
-		margin-left: 1%;
+		margin-left: 1.8%;
 		font-size: .855em;
+		line-height: 1.5em;
 	}
 
 	.net {
