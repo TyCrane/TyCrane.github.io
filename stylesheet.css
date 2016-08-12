@@ -243,9 +243,9 @@ table {
 	float: left;
 	width: 5%;
 	padding-left: 8%;
-	padding-bottom: 8%;
-	
+	padding-bottom: 8%;	
 }
+
 .anchor {
 	text-decoration: none;
 	color: white;
@@ -259,6 +259,11 @@ table {
 	
 }
 
+.yard {
+	font-size: 2.2em; 
+	padding-top: 7%;
+}
+
 .svg:hover path {    
 	fill: #1854B4;
 	}
@@ -269,7 +274,7 @@ table {
 		font-size: 2em;
 		text-align: center;
 		line-height: 4em;
-		}
+	}
 
 	.nav li {
 		list-style: disc outside none;
@@ -277,9 +282,49 @@ table {
 		color: white;
 		margin-left: 1%;
 		font-size: .855em;
-		}
+	}
+
 	.net {
 		padding-bottom: 3%;
+		font-size: 1em;
+	}
+
+	.yard {
+		padding-bottom: 3%;
+		font-size: .8em;
+	}
+
+	.Contact li {
+		padding-top: 1%;
+		float: left;
+		width: 15%;
+		padding-left: 8%;
+		padding-bottom: 8%;	
+	}
+
+	.Contact ul {
+		text-align: center;
+		padding-left: 20%;
+		padding-top: 1.5%;
+		padding-bottom: 2%;
+	
+	}
+	.navWorks {
+		padding-left: 48%;
+	}
+
+	.WorksRight {
+		padding-bottom: 3%;
+	}
+	.WorksRight li {
+		padding-bottom: 1%;
+		line-height: 2.75em;
+	}
+	.MySkills h1 {
+		font-size: 1em;
+	}
+
+	.WorksLeft {
 		font-size: 1em;
 	}
 }
