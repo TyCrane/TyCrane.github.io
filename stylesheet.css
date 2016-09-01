@@ -381,5 +381,10 @@ table {
 	.eci {
 		display: none;
 	}
+	
+	.Header {
+		max-width: 100%;
+		background-image: url('BackgroundMini.jpg');
+	}
 
 }
