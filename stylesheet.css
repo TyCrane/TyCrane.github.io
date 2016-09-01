@@ -43,6 +43,18 @@ table {
 }
 
 
+
+
+@font-face {
+	font-family: headerFont;
+	src: url(FjallaOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: textFont;
+	src: url(Average-Regular.ttf);
+}
+
 .Header {
 	max-width: 100%;
 	background-image: url('Background.jpg');
@@ -51,7 +63,7 @@ table {
 }
 
 .Header span {
-	color: #1854B4;
+	color: #35a3fc;
 }
 
 .Header h1 {
@@ -61,7 +73,7 @@ table {
 }
 
 .nav a:hover{
-	color: blue;
+	color: #35a3fc;
 }
 
 .nav li {
@@ -70,17 +82,18 @@ table {
 	color: white;
 	margin-left: 6%;
 	font-size: .855em;
-	
+	font-family: textFont;	
 }
 
 .nav a:hover{
-	color: blue;
+	color: #35a3fc;
 }
 
 .nav {
 	background-color: black;
 	width: 100%;
 	padding: 1em 0;
+	text-align: center;
 }
 
 .logo {
@@ -95,9 +108,16 @@ table {
 	text-align: center;
 	margin-top: 7%;
 	font-size: 2.5em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	font-family: headerFont;
 }
 
+li {
+	font-family: textFont;
+}
+
+h1 {
+	font-family: headerFont;
+}
 
 .MySkills {
 	clear: both;
@@ -109,7 +129,7 @@ table {
 .MySkills h1 {
 	font-size: 2em;
 	float: left;
-	width: 42%;
+	width: 48%;
 	line-height: 2em;
 	border-right: 1px groove grey;
 	text-align: right;
@@ -123,10 +143,10 @@ table {
 
 .MySkills li {
 	font-size: .85em;
-	padding-left: 15%;
+	padding-left: 12%;
 	text-align: left;
 	line-height: 1.1em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	font-family: textFont;
 }
 
 .Education {
@@ -140,7 +160,7 @@ table {
 
 .Education h1 {
 	font-size: 2.5em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	font-family: headerFont;
 }
 
 .EducationBody {
@@ -177,11 +197,12 @@ table {
 	text-align: center;
 	margin-top: 7%;
 	overflow: hidden;
+	margin-bottom: 2%;
 }
 
 .Works h1 {
 	font-size: 2.5em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: headerFont;
 }
 
 .WorksBody {
@@ -191,7 +212,7 @@ table {
 .WorksLeft {
 	font-size: 2em;
 	float: left;
-	width: 42%;
+	width: 48%;
 	line-height: 2em;
 	border-right: 1px groove grey;
 	text-align: right;
@@ -206,10 +227,10 @@ table {
 
 .WorksRight li {
 	font-size: .85em;
-	padding-left: 15%;
+	padding-left: 12%;
 	text-align: left;
 	line-height: 4.1em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+	font-family: textFont;
 }
 
 .finalProject {
@@ -222,7 +243,7 @@ table {
 
 .finalProject p {
 	float: left;
-	width: 35%;
+	width: 30%;
 }
 
 .finalProject ul {
@@ -232,14 +253,16 @@ table {
 
 .finalProject h1 {
 	font-size: 2em;
-	color: #1854B4;
+	color: #35a3fc;
 	padding-bottom: 2%;
+	font-family: headerFont;
 }
 
 .finalProject li {
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: inline-block;
 	width: 80%;
+	margin-bottom: 1%;
 }
 
 .finalProject a {
@@ -248,13 +271,14 @@ table {
 
 .finalProject img {
 	border-radius: 100%;
-	max-width: 80%;
-	border: 2px ridge #1854B4;
+	max-width: 58%;
+	border: 2px ridge #35a3fc;
 }
 
 #eci {
 	background-color: white;
 	color: black;
+	padding: 0% 5%;
 }
 
 .Resume {
@@ -265,7 +289,7 @@ table {
 
 .Resume h1 {
 	font-size: 2.5em;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: headerFont;
 }
 
 .Contact {
@@ -280,7 +304,7 @@ table {
 .Contact h1 {
 	font-size: 2.5em;
 	padding-top: 3%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: headerFont;
 }
 
 .Contact li {
@@ -310,7 +334,7 @@ table {
 }
 
 .svg:hover path {    
-	fill: #1854B4;
+	fill: #35a3fc;
 	}
 
 
@@ -381,7 +405,7 @@ table {
 	.eci {
 		display: none;
 	}
-	
+
 	.Header {
 		max-width: 100%;
 		background-image: url('BackgroundMini.jpg');
