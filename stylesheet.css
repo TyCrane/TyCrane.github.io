@@ -212,6 +212,51 @@ table {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
 }
 
+.finalProject {
+	background-color: black;
+	color: white;
+	margin-top: 5%;
+	padding: 5%;
+	overflow: hidden;
+}
+
+.finalProject p {
+	float: left;
+	width: 35%;
+}
+
+.finalProject ul {
+	float: left;
+	width: 65%;
+}
+
+.finalProject h1 {
+	font-size: 2em;
+	color: #1854B4;
+	padding-bottom: 2%;
+}
+
+.finalProject li {
+	line-height: 1.2em;
+	display: inline-block;
+	width: 80%;
+}
+
+.finalProject a {
+	text-decoration: none;
+}
+
+.finalProject img {
+	border-radius: 100%;
+	max-width: 80%;
+	border: 2px ridge #1854B4;
+}
+
+#eci {
+	background-color: white;
+	color: black;
+}
+
 .Resume {
 	clear: both;
 	text-align: center;
@@ -328,4 +373,13 @@ table {
 	.WorksLeft {
 		font-size: 1em;
 	}
+
+	.finalProject {
+		display: none;
+	}
+
+	.eci {
+		display: none;
+	}
+
 }
